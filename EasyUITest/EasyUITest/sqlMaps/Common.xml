@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="Knowledge"
+        xmlns="http://ibatis.apache.org/mapping"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <alias>
+        <typeAlias alias="Student" type="EasyUI.Model.Common.Student,EasyUI.Model" />
+        <typeAlias alias="Man" type="EasyUI.Model.Common.Man,EasyUI.Model" />
+    </alias>
+
+    <statements>
+        
+        <select id="GetStudents" resultClass="Student" parameterClass="Student">
+            SELECT * FROM 
+             [studentInfo]
+           
+            <!--<isNotEmpty  prepend="and" property="ClassId">
+                ClassId = #ClassId#
+            </isNotEmpty>-->
+            <!--ORDER BY SubjectCodeSort-->
+        </select>
+      <insert id="InsertStudents" parameterClass="Student">
+        INSERT INTO 
+        [studentInfo]
+        values(
+        #Id#,#Name#
+        )
+        <!--<selectKey resultClass="int" type="post" keyProperty="Id">
+          SELECT Id FROM studentInfo WHERE Id = #Id#
+        </selectKey>-->
+      </insert>
+      
+    <!--man  sql-->
+    <select id="GetMen" resultClass="Man" >
+      SELECT*FROM [man_info]
+    </select>
+    <insert id="InsertMan" parameterClass="Man">
+      <selectKey property="Id" type="post" resultClass="int">
+				select @@IDENTITY as [value];
+            </selectKey>
+      INSERT INTO [man_info]values (#Name#,#Age#)
+      
+    </insert>
+    <update id="EditMan" parameterClass="Man">
+      UPDATE [man_info] 
+      SET Name = #Name#,
+      Age = #Age#
+      WHERE Id = #Id#
+    </update>
+    </statements>
+</sqlMap>

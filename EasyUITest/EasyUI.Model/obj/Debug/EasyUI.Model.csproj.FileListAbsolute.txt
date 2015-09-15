@@ -1,0 +1,5 @@
+E:\test\EasyUITest\EasyUI.Model\bin\Debug\EasyUI.Model.dll
+E:\test\EasyUITest\EasyUI.Model\bin\Debug\EasyUI.Model.pdb
+E:\test\EasyUITest\EasyUI.Model\obj\Debug\EasyUI.Model.dll
+E:\test\EasyUITest\EasyUI.Model\obj\Debug\EasyUI.Model.pdb
+E:\test\EasyUITest\EasyUI.Model\obj\Debug\EasyUI.Model.csprojResolveAssemblyReference.cache

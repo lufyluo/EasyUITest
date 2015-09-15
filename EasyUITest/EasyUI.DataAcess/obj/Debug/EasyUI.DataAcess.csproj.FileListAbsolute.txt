@@ -1,0 +1,17 @@
+E:\test\EasyUITest\EasyUI.DataAcess\bin\Debug\EasyUI.DataAcess.dll
+E:\test\EasyUITest\EasyUI.DataAcess\bin\Debug\EasyUI.DataAcess.pdb
+E:\test\EasyUITest\EasyUI.DataAcess\bin\Debug\EasyUI.Framework.dll
+E:\test\EasyUITest\EasyUI.DataAcess\bin\Debug\IBatisNet.DataMapper.dll
+E:\test\EasyUITest\EasyUI.DataAcess\bin\Debug\IBatisNet.Common.dll
+E:\test\EasyUITest\EasyUI.DataAcess\bin\Debug\EasyUI.Framework.pdb
+E:\test\EasyUITest\EasyUI.DataAcess\obj\Debug\EasyUI.DataAcess.csprojResolveAssemblyReference.cache
+E:\test\EasyUITest\EasyUI.DataAcess\obj\Debug\EasyUI.DataAcess.dll
+E:\test\EasyUITest\EasyUI.DataAcess\obj\Debug\EasyUI.DataAcess.pdb
+E:\test\EasyUITest\EasyUI.DataAcess\bin\Debug\EasyUI.Model.dll
+E:\test\EasyUITest\EasyUI.DataAcess\bin\Debug\EasyUI.Model.pdb
+E:\test\EasyUITest\EasyUI.DataAcess\bin\Debug\Castle.Core.dll
+E:\test\EasyUITest\EasyUI.DataAcess\bin\Debug\IBatisNet.DataMapper.pdb
+E:\test\EasyUITest\EasyUI.DataAcess\bin\Debug\IBatisNet.DataMapper.xml
+E:\test\EasyUITest\EasyUI.DataAcess\bin\Debug\IBatisNet.Common.pdb
+E:\test\EasyUITest\EasyUI.DataAcess\bin\Debug\IBatisNet.Common.xml
+E:\test\EasyUITest\EasyUI.DataAcess\bin\Debug\Castle.Core.xml

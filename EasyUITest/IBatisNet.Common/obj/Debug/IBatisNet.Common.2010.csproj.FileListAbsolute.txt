@@ -1,0 +1,15 @@
+E:\iBATIS_2010-master\iBATIS_2010-master\IBatisNet.Common\bin\Debug\IBatisNet.Common.dll
+E:\iBATIS_2010-master\iBATIS_2010-master\IBatisNet.Common\bin\Debug\IBatisNet.Common.pdb
+E:\iBATIS_2010-master\iBATIS_2010-master\IBatisNet.Common\bin\Debug\IBatisNet.Common.xml
+E:\iBATIS_2010-master\iBATIS_2010-master\IBatisNet.Common\bin\Debug\Castle.Core.dll
+E:\iBATIS_2010-master\iBATIS_2010-master\IBatisNet.Common\bin\Debug\Castle.Core.xml
+E:\iBATIS_2010-master\iBATIS_2010-master\IBatisNet.Common\obj\Debug\IBatisNet.Common.2010.csprojResolveAssemblyReference.cache
+E:\iBATIS_2010-master\iBATIS_2010-master\IBatisNet.Common\obj\Debug\IBatisNet.Common.dll
+E:\iBATIS_2010-master\iBATIS_2010-master\IBatisNet.Common\obj\Debug\IBatisNet.Common.pdb
+E:\test\EasyUITest\IBatisNet.Common\bin\Debug\IBatisNet.Common.dll
+E:\test\EasyUITest\IBatisNet.Common\bin\Debug\IBatisNet.Common.pdb
+E:\test\EasyUITest\IBatisNet.Common\bin\Debug\IBatisNet.Common.xml
+E:\test\EasyUITest\IBatisNet.Common\bin\Debug\Castle.Core.dll
+E:\test\EasyUITest\IBatisNet.Common\bin\Debug\Castle.Core.xml
+E:\test\EasyUITest\IBatisNet.Common\obj\Debug\IBatisNet.Common.dll
+E:\test\EasyUITest\IBatisNet.Common\obj\Debug\IBatisNet.Common.pdb

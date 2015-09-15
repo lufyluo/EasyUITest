@@ -1,0 +1,4 @@
+E:\test\EasyUITest\Easy.Model\bin\Debug\Easy.Model.dll
+E:\test\EasyUITest\Easy.Model\bin\Debug\Easy.Model.pdb
+E:\test\EasyUITest\Easy.Model\obj\Debug\Easy.Model.dll
+E:\test\EasyUITest\Easy.Model\obj\Debug\Easy.Model.pdb

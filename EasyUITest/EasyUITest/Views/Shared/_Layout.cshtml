@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - 我的 ASP.NET MVC 应用程序</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+        <link rel="stylesheet" type="text/css" href="~/Content/themes/default/easyui.css">
+        <link rel="stylesheet" type="text/css" href="~/Content/themes/icon.css">
+        <link rel="stylesheet" type="text/css" href="~/Content/themes/color.css">
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+        <style type="text/css">
+            * {
+                font-size: 12px;
+            }
+
+            body {
+                font-family: verdana,helvetica,arial,sans-serif;
+                padding: 20px;
+                font-size: 12px;
+                margin: 0;
+            }
+
+            h2 {
+                font-size: 18px;
+                font-weight: bold;
+                margin: 0;
+                margin-bottom: 15px;
+            }
+
+            .demo-info {
+                padding: 0 0 12px 0;
+            }
+
+            .demo-tip {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p class="site-title">@Html.ActionLink("将你的徽标放置在此处", "Index", "Home")</p>
+                </div>
+                <div class="float-right">
+                    <section id="login">
+                        @Html.Partial("_LoginPartial")
+                    </section>
+                    <nav>
+                        <ul id="menu">
+                            <li>@Html.ActionLink("主页", "Index", "Home")</li>
+                            <li>@Html.ActionLink("关于", "About", "Home")</li>
+                            <li>@Html.ActionLink("联系方式", "Contact", "Home")</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </div>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; @DateTime.Now.Year - 我的 ASP.NET MVC 应用程序</p>
+                </div>
+            </div>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>
